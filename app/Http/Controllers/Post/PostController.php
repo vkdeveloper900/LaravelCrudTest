@@ -19,6 +19,7 @@ class PostController extends Controller
         return view('post.list', compact('posts'));
     }
 
+
     // Add or Edit view
     public function addEdit(Request $request)
     {
